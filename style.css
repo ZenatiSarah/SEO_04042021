@@ -18,7 +18,7 @@ a:hover {
     cursor: pointer;
 }
 .navbar-nav a:hover {
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #B00000;
 }
 #page-loading-blocs-notifaction {
     position: fixed;
@@ -152,7 +152,7 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
+    color: #B00000;
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -235,7 +235,18 @@ a:hover {
 .l-bloc p a {
     color: rgba(0, 0, 0, .6);
 }
-
+.et-icon-edit:before {
+    color: #B00000;
+    content: "\e01c";
+}
+.et-icon-presentation:before {
+    content: "\e00e";
+    color: #B00000;
+}
+.et-icon-browser:before {
+    content: "\e00c";
+    color: #B00000;
+}
 .d-bloc .panel .a-btn:hover,
 .l-bloc .a-btn:hover,
 .l-bloc .navbar a:hover,
@@ -294,6 +305,10 @@ a:hover {
 .navbar {
     margin-bottom: 0;
     z-index: 1;
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
 }
 
 .navbar-brand {
@@ -663,7 +678,8 @@ a {
 }
 
 .hero-bloc-text {
-    font-size: 38px;
+    font-size: xxx-large;
+    padding-bottom: 1rem;
 }
 
 .hero-bloc-text-sub {
@@ -723,7 +739,7 @@ h3 {
 }
 
 .med-width-whitespace {
-    max-width: 800px;
+    max-width: 1010px;
     margin: auto auto auto auto;
     box-shadow: 0px 0px 0px #000000;
 }
@@ -742,7 +758,8 @@ h4 {
 }
 
 .white {
-    color: #000000!important;
+    color: #000!important;
+    padding-bottom: 2rem;
 }
 
 .portfolio-thumb {
@@ -777,11 +794,14 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #CCF8F5;
+    background-color: #575757;
 }
-
+.col-sm-12 h1, p{
+    color: #000;
+}
 .tc-white {
     color: #FFF!important;
+    text-align: center;
 }
 
 .btn-atomic-tangerine {
@@ -799,7 +819,7 @@ h4 {
 }
 
 .ltc-white:hover {
-    color: #cccccc!important;
+    color: #000!important;
 }
 
 .ltc-atomic-tangerine {
