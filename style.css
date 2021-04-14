@@ -42,8 +42,8 @@ a:hover {
 }
 
 .bloc .container {
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 .bloc-lg {
@@ -1091,5 +1091,17 @@ h4 {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+    .fa-twitter{
+        margin-bottom: 2rem;
+    }
+    .fa-facebook{
+        margin-bottom: 2rem;
+    }
+    .fa-dribbble{
+        margin-bottom: 2rem;
+    }
+    .fa-instagram{
+        margin-bottom: 2rem;
     }
 }
