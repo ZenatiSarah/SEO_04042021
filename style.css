@@ -92,11 +92,6 @@ a:hover {
     right: 0;
 }
 
-.texture-paper::before {
-    /* background: url("img/texture-paper.png"); */
-    background-size: 280px 280px;
-}
-
 .b-parallax {
     background-attachment: fixed;
 }
@@ -615,7 +610,8 @@ a[data-lightbox]:hover img {
     position: absolute;
     left: 15px;
     right: 15px;
-    bottom: 5px;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 .close-lightbox {
@@ -723,7 +719,6 @@ a {
 
 p {
     font-size: 14px;
-    margin-bottom: 25px;
 }
 
 .tight-width-whitespace {
@@ -943,6 +938,21 @@ h4 {
 }
 
 @media (max-width: 767px) {
+    .bloc-mob-center-text {
+        text-align: center;
+    }
+    .fa-twitter{
+        margin-bottom: 2rem;
+    }
+    .fa-facebook{
+        margin-bottom: 2rem;
+    }
+    .fa-dribbble{
+        margin-bottom: 2rem;
+    }
+    .fa-instagram{
+        margin-bottom: 2rem;
+    }
     .page-container {
         overflow-x: hidden;
         position: relative;
@@ -1088,20 +1098,9 @@ h4 {
     }
 }
 
-@media (max-width: 767px) {
-    .bloc-mob-center-text {
-        text-align: center;
-    }
-    .fa-twitter{
-        margin-bottom: 2rem;
-    }
-    .fa-facebook{
-        margin-bottom: 2rem;
-    }
-    .fa-dribbble{
-        margin-bottom: 2rem;
-    }
-    .fa-instagram{
-        margin-bottom: 2rem;
+@media (min-width: 767px) {
+    .modal-dialog img {
+        position: relative;
+        left: 146px;
     }
 }
