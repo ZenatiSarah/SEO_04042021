@@ -685,6 +685,18 @@ a {
 .hero-bloc-text-sub {
     font-size: 36px;
 }
+.fa-dribbble:before{
+    color: #FFF;
+}
+.fa-instagram:before{
+    color: #FFF;
+}
+.fa-facebook:before{
+    color: #FFF;
+}
+.fa-twitter:before{
+    color: #FFF;
+}
 
 .statement-bloc-text {
     line-height: 26px;
@@ -758,7 +770,7 @@ h4 {
 }
 
 .white {
-    color: #000!important;
+    color: #FFF!important;
     padding-bottom: 2rem;
 }
 
