@@ -17,17 +17,15 @@ a:hover {
     text-decoration: none;
     cursor: pointer;
 }
-.navbar-nav a:hover {
-    border-bottom: 1px solid #B00000;
-}
-#page-loading-blocs-notifaction {
+
+/* #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
     bottom: 0;
     width: 100%;
     z-index: 100000;
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
-}
+} */
 
 .bloc {
     width: 100%;
@@ -117,7 +115,6 @@ a:hover {
 }
 
 .d-bloc .a-btn,
-.d-bloc .navbar a,
 .d-bloc .navbar-brand,
 .d-bloc a .icon-sm,
 .d-bloc a .icon-md,
@@ -134,7 +131,6 @@ a:hover {
 }
 
 .d-bloc .a-btn:hover,
-.d-bloc .navbar a:hover,
 .d-bloc .navbar-brand:hover,
 .d-bloc a:hover .icon-sm,
 .d-bloc a:hover .icon-md,
@@ -149,57 +145,6 @@ a:hover {
 .d-bloc p a:hover {
     color: #B00000;
 }
-
-.d-bloc .navbar-toggle .icon-bar {
-    background: rgba(255, 255, 255, 1);
-}
-
-.d-bloc .btn-wire,
-.d-bloc .btn-wire:hover {
-    color: rgba(255, 255, 255, 1);
-    border-color: rgba(255, 255, 255, 1);
-}
-
-.d-bloc .panel {
-    color: rgba(0, 0, 0, .5);
-}
-
-.d-bloc .panel button:hover {
-    color: rgba(0, 0, 0, .7);
-}
-
-.d-bloc .panel icon {
-    border-color: rgba(0, 0, 0, .7);
-}
-
-.d-bloc .panel .divider-h span {
-    border-color: rgba(0, 0, 0, .1);
-}
-
-.d-bloc .panel .a-btn {
-    color: rgba(0, 0, 0, .6);
-}
-
-.d-bloc .panel .a-btn:hover {
-    color: rgba(0, 0, 0, 1);
-}
-
-.d-bloc .panel .btn-wire,
-.d-bloc .panel .btn-wire:hover {
-    color: rgba(0, 0, 0, .7);
-    border-color: rgba(0, 0, 0, .3);
-}
-
-.d-bloc .panel,
-.l-bloc {
-    color: rgba(0, 0, 0, .5);
-}
-
-.d-bloc .panel button:hover,
-.l-bloc button:hover {
-    color: rgba(0, 0, 0, .7);
-}
-
 .l-bloc .icon-round,
 .l-bloc .icon-square,
 .l-bloc .icon-rounded,
@@ -208,14 +153,7 @@ a:hover {
     border-color: rgba(0, 0, 0, .7);
 }
 
-.d-bloc .panel .divider-h span,
-.l-bloc .divider-h span {
-    border-color: rgba(0, 0, 0, .1);
-}
-
-.d-bloc .panel .a-btn,
 .l-bloc .a-btn,
-.l-bloc .navbar a,
 .l-bloc .navbar-brand,
 .l-bloc a .icon-sm,
 .l-bloc a .icon-md,
@@ -242,9 +180,8 @@ a:hover {
     content: "\e00c";
     color: #B00000;
 }
-.d-bloc .panel .a-btn:hover,
+
 .l-bloc .a-btn:hover,
-.l-bloc .navbar a:hover,
 .l-bloc .navbar-brand:hover,
 .l-bloc a:hover .icon-sm,
 .l-bloc a:hover .icon-md,
@@ -260,17 +197,6 @@ a:hover {
     color: rgba(0, 0, 0, 1);
 }
 
-.l-bloc .navbar-toggle .icon-bar {
-    color: rgba(0, 0, 0, .6);
-}
-
-.d-bloc .panel .btn-wire,
-.d-bloc .panel .btn-wire:hover,
-.l-bloc .btn-wire,
-.l-bloc .btn-wire:hover {
-    color: rgba(0, 0, 0, .7);
-    border-color: rgba(0, 0, 0, .3);
-}
 
 .voffset {
     margin-top: 30px;
@@ -337,12 +263,6 @@ a:hover {
     z-index: 1;
 }
 
-.nav > li {
-    float: left;
-    margin-top: 4px;
-    font-size: 16px;
-}
-
 .navbar-nav .open .dropdown-menu > li > a {
     text-align: inherit;
 }
@@ -354,24 +274,7 @@ address{
     padding-top: 10rem;
     font-size: x-large;
 }
-.nav > li a:hover,
-.nav > li a:focus {
-    background: transparent;
-}
 
-.navbar-toggle {
-    margin: 10px 10px 0 0;
-    border: 0px;
-}
-
-.navbar-toggle:hover {
-    background: transparent!important;
-}
-
-.navbar-toggle .icon-bar {
-    background-color: rgba(0, 0, 0, .5);
-    width: 26px;
-}
 
 .nav-invert .navbar .nav {
     float: left;
@@ -391,10 +294,6 @@ address{
         right: 20px;
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
-    }
-    .nav > li .dropdown-menu a,
-    .nav > li .dropdown-menu a:hover {
-        color: #484848;
     }
     .nav-invert .site-navigation {
         left: 0;
@@ -419,16 +318,7 @@ address{
         margin-right: 0px;
         margin-top: 20px;
     }
-    .nav-center.mini-nav .navbar-toggle {
-        float: none;
-        margin: 10px auto 0;
-    }
-}
-
-.nav > li > .dropdown a {
-    background: none!important;
-    display: block;
-    padding: 14px 15px;
+    
 }
 
 nav .caret {
@@ -988,17 +878,6 @@ h4 {
         -webkit-transform: none;
         -ms-transform: none;
     }
-    .nav > li {
-        margin-top: 0;
-        border-bottom: 1px solid rgba(0, 0, 0, .1);
-        background: rgba(0, 0, 0, .05);
-        text-align: left;
-        padding-left: 15px;
-        width: 100%;
-    }
-    .nav > li:hover {
-        background: rgba(0, 0, 0, .08);
-    }
     .dropdown .dropdown a .caret {
         float: none;
         margin: 5px 0 0 10px!important;
@@ -1033,10 +912,6 @@ h4 {
     .nav-invert .navbar-header {
         float: none;
         width: 100%;
-    }
-    .nav-invert .navbar-toggle {
-        float: left;
-        margin-left: 10px;
     }
     .bloc {
         padding-left: 0;
