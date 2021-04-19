@@ -219,9 +219,9 @@ a:hover {
     padding-left: 0;
 }
 
-#bloc-1-hero h1 {
+/* #bloc-1-hero h1 {
     font-size: 36px;
-}
+} */
 
 .navbar {
     margin-bottom: 0;
@@ -777,6 +777,9 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+    #bloc-1-hero h1{
+        font-size: 36px;
+    }
 }
 
 @media (max-width: 992px) and (min-width: 768px) {
@@ -785,6 +788,9 @@ h4 {
     }
     .nav-center.navbar .nav {
         max-width: 100%
+    }
+    #bloc-1-hero h1{
+        font-size: 36px;
     }
 }
 
@@ -826,6 +832,9 @@ h4 {
         padding: 0 20px;
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
+    }
+    #bloc-1-hero h1{
+        font-size: 36px;
     }
 }
 
@@ -906,7 +915,7 @@ h4 {
         box-shadow: none;
     }
     .navbar-brand img {
-        max-height: 40px;
+        max-height: 55px;
         width: auto;
     }
     .nav-invert .navbar-header {
@@ -966,6 +975,9 @@ h4 {
         width: 180px;
         height: 320px;
     }
+    #bloc-1-hero h1{
+        font-size: 30px;
+    }
 }
 
 @media (max-width: 400px) {
@@ -973,11 +985,17 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+    #bloc-1-hero h1{
+        font-size: 25px;
+    }
 }
 
 @media (min-width: 767px) {
     .modal-dialog img {
         position: relative;
         left: 146px;
+    }
+    #bloc-1-hero h1{
+        font-size: 30px;
     }
 }
