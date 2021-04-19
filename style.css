@@ -205,6 +205,10 @@ a:hover {
 .voffset-lg {
     margin-top: 80px;
 }
+.texture-paper::before {
+    background: url(img/texture-paper.png);
+    background-size: 280px 280px;
+}
 
 .row-no-gutters {
     margin-right: 0;
@@ -228,7 +232,6 @@ a:hover {
     z-index: 1;
     position: relative;
     min-height: 50px;
-    margin-bottom: 20px;
     border: 1px solid transparent;
 }
 
@@ -758,7 +761,7 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-image: url("img/la-chouette-agence-banniere.png");
 }
 
 .bg-presentation {
